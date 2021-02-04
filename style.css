@@ -1,0 +1,79 @@
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.title {
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  font-family: Garamond;
+  font-size: 288px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  width: 507px;
+  left: 20%;
+  top: 40%;
+}
+
+.description {
+  position: absolute;
+  width: 480px;
+  height: 545px;
+  left: 55%;
+  top: 40%;
+}
+
+.tiktoklink {
+  position: absolute;
+  width: 472px;
+  height: 32px;
+  left: 20%;
+  top: 99%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: limegreen;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+  font-size: 100px;
+}
+  img {
+  position: absolute;
+  width: 400px;
+  left: 15%;
+  top: 20%;
+}
+.description {
+  position: absolute;
+  width: 400px;
+  left: 15%;
+  top: 80%;
+}
+  .tiktoklink {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  padding: 10px;
+  background-color: white;
+  width: 290px;
+}
+}
